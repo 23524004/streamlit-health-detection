@@ -61,7 +61,7 @@ def score_define():
 iu = user_input_features()
 
 # import dataset from csv
-filecsv = 'ehr.csv'
+filecsv = 'dataset/ehr.csv'
 df = pd.read_csv(filecsv, header=0, delimiter=',', encoding='utf-8')
 st.subheader('Total data: ' + str(len(df)))
 
